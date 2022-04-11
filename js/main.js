@@ -45,7 +45,7 @@ var configs = (function () {
         host: "qrtx.ru",
         user: "guest",
         is_root: false,
-        type_delay: 20
+        type_delay: 10
     };
     return {
         getInstance: function (options) {
@@ -450,7 +450,7 @@ var main = (function () {
         var skip = function () {
             skipped = true;
         }.bind(this);
-        document.addEventListener("dblclick", skip);
+        document.addEventListener("click", skip);
         (function typer() {
             if (i < text.length) {
                 var char = text.charAt(i);
@@ -461,12 +461,12 @@ var main = (function () {
                     setTimeout(typer, isNewLine ? timer * 2 : timer);
                 } else {
                     output.innerHTML += (text.substring(i).replace(new RegExp("\n", 'g'), "<br/>")) + "<br/>";
-                    document.removeEventListener("dblclick", skip);
+                    document.removeEventListener("click", skip);
                     callback();
                 }
             } else if (callback) {
                 output.innerHTML += "<br/>";
-                document.removeEventListener("dblclick", skip);
+                document.removeEventListener("click", skip);
                 callback();
             }
             scrollToBottom();
