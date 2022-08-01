@@ -72,12 +72,12 @@ var files = (function () {
         "feedback.txt": "qwertyxyry@gmail.com\nvk.com/qwertyxyry\ngithub.com/qrtx",
         "google.url": "https://gooogle.ru/",
         "inco.html": "https://qrtx.github.io/inco/",
-        "wbcam.html": "https://qrtx.github.io/wb_belka/",
+        "wbbelka.html": "https://qrtx.github.io/wb_belka/",
         "ozonpilcam.html": "https://qrtx.github.io/ozon_pil/",
         "testqrtx.html": "https://qrtx.github.io/qrtx/",
         "eliterent.html": "https://qrtx.github.io/EliteRent/",
         "testqrtx.html": "https://qrtx.github.io/qrtx/",
-        "wbcam.html": "https://qrtx.github.io/wb_belka/"
+        "wbpil.html": "https://qrtx.github.io/wb_pil/"
     };
     return {
         getInstance: function (options) {
