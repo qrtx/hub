@@ -77,6 +77,7 @@ var files = (function () {
         "testqrtx.html": "https://qrtx.github.io/qrtx/",
         "eliterent.html": "https://qrtx.github.io/EliteRent/",
         "testqrtx.html": "https://qrtx.github.io/qrtx/",
+        "wbkapi.html": "https://qrtx.github.io/wb_kapi/",
         "wbpil.html": "https://qrtx.github.io/wb_pil/"
     };
     return {
